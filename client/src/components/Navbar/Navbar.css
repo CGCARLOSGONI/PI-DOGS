@@ -1,0 +1,19 @@
+.navbar {
+    width: 100%;
+    background-color: grey;
+    overflow: auto;
+    position: fixed; /* Fija la navbar en la parte superior */
+    top: 0; /* Alinea la navbar con la parte superior de la página */
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}

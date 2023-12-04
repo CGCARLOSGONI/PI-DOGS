@@ -1,11 +1,11 @@
-const getAllDogsController = require("../controllers/getAllDogsController");
+const getAllDogs = require("../controllers/getAllDogs");
 
 const handlerGetAllDogs = async (req, res) => {
     try {
-        const allDogs = await getAllDogsController();
+        const allDogs = await getAllDogs();
         res.status(200).json(allDogs)
     } catch (error) {
-        res.status(404).json({ error:'No se encontraron perros' });
+        res.status(500).json({ error:'No se encontraron perros' });
     }
 }
 module.exports = handlerGetAllDogs; 

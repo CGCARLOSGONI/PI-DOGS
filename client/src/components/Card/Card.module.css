@@ -1,0 +1,37 @@
+.CardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 300px;
+    padding: 3wmm;
+    background-color: rgb(0, 94, 255);
+    margin:5px;
+    box-shadow: 0px 5px 25px #000000;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translate(0);
+    transition: 0.25s ease-out;
+}
+
+.CardContainer:hover {
+    transform: scale(1.05);
+}
+
+.image{
+    width: 80%;
+    height: 40%;
+    border-radius: 100%;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.temperament{
+    font-size: 15px;
+}
+.weight{
+    margin-top: -5px;
+    font-size: 15px;
+
+}
+

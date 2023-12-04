@@ -10,10 +10,10 @@ const router = Router();
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
 
-router.get('/dogs', handlerGetAllDogs);
+router.get('/dogs/', handlerGetAllDogs);
 
-router.get('/dogs/:id', handlerGetDogsById);
+// router.get('/dogs/:id', handlerGetDogsById);
 
-router.get('/dogs/name', handlerGetDogsByName)
+// router.get('/dogs/name', handlerGetDogsByName)
 
 module.exports = router;
